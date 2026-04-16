@@ -41,21 +41,25 @@ Sensor Node → Processor Node → Alert Node
 The system behavior can be visualized using:
 
 ```bash
-ros2 run rqt_plot rqt_plot
+ros2 run rqt_plot rqt_plot 
+
 
 Plot:
 
 /raw_data/data
 /processed_data/data
+```
+--- 
 
-▶️ How to Run
+## ▶️ How to Run
+```bash
 cd ~/ros2_ws
 colcon build --symlink-install
 source install/setup.bash
 
 ros2 launch smart_pipeline pipeline.launch.py
-
-⚙️ Parameter Configuration
+``` 
+## ⚙️ Parameter Configuration
 
 You can modify the alert threshold at runtime:
 
@@ -81,6 +85,6 @@ Raw: 45 | Smoothed: 40
 - Visualization in RViz
 - Deployment on physical robot
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Tannishth Gupta
