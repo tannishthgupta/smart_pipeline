@@ -73,7 +73,7 @@ Raw: 45 | Smoothed: 40
 
 ## 📸 Screenshot
 
-![Pipeline Visualization](screenshot.png)
+![Pipeline Visualization](images/screenshot.png)
 
 🚀 Future Improvements
 - Custom ROS2 message types
